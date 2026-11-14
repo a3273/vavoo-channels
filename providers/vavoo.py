@@ -1,22 +1,22 @@
-"""Provider Vavoo - salva URL del resolver Cloudflare (non risolve direttamente)."""
-import logging
-from urllib.parse import quote
+"""Provider Vavoo via worker Cloudflare (piano B: forza l'ordine provider).
 
-logger = logging.getLogger(__name__)
+URL stabili con &p=vavoo: il worker prova Vavoo per primo e, se fallisce,
+ripiega su NTV e Matchora. Il resolve vavoo reale avviene nel worker
+(mirror multipli + API v2 /live/resolve + mediahubmx, failover automatico).
+"""
 
-RESOLVER_BASE = "https://resolvers.simone-scorrano-2011.workers.dev/vavoo"
+WORKER_BASE = "https://resolvers.simone-scorrano-2011.workers.dev"
+
 
 def resolve(channel, stream):
-    query = stream.get("query") or channel.get("name", "")
-    if not query:
-        raise ValueError("Vavoo: query mancante")
-
-    stable_url = f"{RESOLVER_BASE}?ch={quote(query)}"
-    logger.info("Vavoo: %s -> %s", query, stable_url)
-
+    slug = str(stream.get("slug") or "").strip()
+    query = str(stream.get("query") or "").strip()
+    ch = slug or query.replace(" ", "-")
+    if not ch:
+        raise ValueError("Vavoo: slug o query mancanti")
     return {
-        "url": stable_url,
-        "provider": "Vavoo",
+        "url": f"{WORKER_BASE}/live?ch={ch}&p=vavoo",
+        "provider": "vavoo",
         "quality": "HD",
         "headers": {},
         "extra_vlcopts": ["network-caching=10000"],
