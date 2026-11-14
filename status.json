@@ -3,8 +3,8 @@
     "channels_total": 16,
     "channels_enabled": 16,
     "streams_total": 16,
-    "streams_generated": 0,
-    "streams_failed": 16
+    "streams_generated": 16,
+    "streams_failed": 0
   },
   "channels": {
     "RSI La 1": {
@@ -15,8 +15,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=rsi%20la%201 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=rsi%20la%201"
         }
       ]
     },
@@ -28,8 +28,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=rsi%20la%202 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=rsi%20la%202"
         }
       ]
     },
@@ -41,8 +41,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%2024 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%2024"
         }
       ]
     },
@@ -54,8 +54,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20uno (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20uno"
         }
       ]
     },
@@ -67,8 +67,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20calcio (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20calcio"
         }
       ]
     },
@@ -80,8 +80,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20tennis (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20tennis"
         }
       ]
     },
@@ -93,8 +93,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20basket (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20basket"
         }
       ]
     },
@@ -106,8 +106,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20serie%20a (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20serie%20a"
         }
       ]
     },
@@ -119,8 +119,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20arena (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20arena"
         }
       ]
     },
@@ -132,8 +132,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20max (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20max"
         }
       ]
     },
@@ -145,8 +145,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20f1 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20f1"
         }
       ]
     },
@@ -158,8 +158,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20motogp (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20motogp"
         }
       ]
     },
@@ -171,8 +171,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=sky%20sport%20golf (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=sky%20sport%20golf"
         }
       ]
     },
@@ -184,8 +184,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=dazn%201 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=dazn%201"
         }
       ]
     },
@@ -197,8 +197,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=eurosport%201 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=eurosport%201"
         }
       ]
     },
@@ -210,8 +210,8 @@
           "provider": "vavoo",
           "priority": 1,
           "source_url_configured": false,
-          "status": "error",
-          "error": "HTTPSConnectionPool(host='vavoo.to', port=443): Max retries exceeded with url: /search?q=eurosport%202 (Caused by NewConnectionError(\"HTTPSConnection(host='vavoo.to', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+          "status": "resolved",
+          "url": "https://resolvers.simone-scorrano-2011.workers.dev/vavoo?ch=eurosport%202"
         }
       ]
     }
